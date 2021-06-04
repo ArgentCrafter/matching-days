@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+}
+
+.weekDisplay {
+    display: flex;
+    margin: 0 20px 0 20px;
+    justify-content: space-around;
+}
+
+.weekDay {
+    display: flex;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}

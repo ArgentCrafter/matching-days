@@ -1,3 +1,9 @@
+.containerAll {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: silver;
+}
+
 .header {
     text-align: center;
 }
@@ -15,4 +21,31 @@
     width: 200px;
     align-items: center;
     justify-content: center;
+}
+
+.dayText {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: silver;
+}
+
+.dateInput1 {
+    text-align: center;
+}
+
+.dateInput2 {
+    text-align: center;
+}
+
+.green {
+    background-color: rgb(0, 200, 0);
+}
+
+.red {
+    background-color: rgb(255, 44, 44);
+}
+
+.blue {
+    background-color: rgb(21, 141, 246);
 }

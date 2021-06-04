@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Matching-days.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./matching-days.css" />
     <title>Matching Days</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="containerAll">
-        <div class="header">
-            <h1 >Matching Days:</h1>
-        </div>
-        <br>
-        <div class="weekDisplay">
-            <div class="weekDay" id="monday">Monday</div>
-            <div class="weekDay" id="tuesday">Tuesday</div>
-            <div class="weekDay" id="wednesday">Wednesday</div>
-            <div class="weekDay" id="thursday">Thursday</div>
-            <div class="weekDay" id="friday">Friday</div>
-            <div class="weekDay" id="saturday">Saturday</div>
-            <div class="weekDay" id="sunday">Sunday</div>
-        </div>
+      <div class="header">
+        <h1>Matching Days:</h1>
+      </div>
+      <br />
+      <div class="weekDisplay">
+        <div class="weekDay" id="Monday"><p class="dayText">Monday</p></div>
+        <div class="weekDay" id="Tuesday"><p class="dayText">Tuesday</p></div>
+        <div class="weekDay" id="Wednesday"><p class="dayText">Wednesday</p></div>
+        <div class="weekDay" id="Thursday"><p class="dayText">Thursday</p></div>
+        <div class="weekDay" id="Friday"><p class="dayText">Friday</p></div>
+        <div class="weekDay" id="Saturday"><p class="dayText">Saturday</p></div>
+        <div class="weekDay" id="Sunday"><p class="dayText">Sunday</p></div>
+      </div>
+      <br />
+      <div class="dateInput1">
+        <label for="dateInput1">First Date:</label>
+        <input type="date" id="dateInput1" />
+      </div>
+      <br />
+      <div class="dateInput2">
+        <label for="dateInput2">Second Date:</label>
+        <input type="date" id="dateInput2" />
+      </div>
+      <br />
     </div>
-</body>
+  </body>
+  <script src="./matching-days.js"></script>
 </html>

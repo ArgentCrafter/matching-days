@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./matching-days.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script type="text/x-template" class="template">
+      {{#each weekDays}}
+        <div class="weekDay" id="{{day}}"><p class="dayText">{{day}}</p></div>
+        {{/each}}
+    </script>
     <title>Matching Days</title>
   </head>
   <body>
@@ -14,13 +20,6 @@
       </div>
       <br />
       <div class="weekDisplay">
-        <div class="weekDay" id="Monday"><p class="dayText">Monday</p></div>
-        <div class="weekDay" id="Tuesday"><p class="dayText">Tuesday</p></div>
-        <div class="weekDay" id="Wednesday"><p class="dayText">Wednesday</p></div>
-        <div class="weekDay" id="Thursday"><p class="dayText">Thursday</p></div>
-        <div class="weekDay" id="Friday"><p class="dayText">Friday</p></div>
-        <div class="weekDay" id="Saturday"><p class="dayText">Saturday</p></div>
-        <div class="weekDay" id="Sunday"><p class="dayText">Sunday</p></div>
       </div>
       <br />
       <div class="dateInput1">

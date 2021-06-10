@@ -38,6 +38,11 @@
     text-align: center;
 }
 
+.dateInputs {
+    display: flex;
+    justify-content: space-around;
+}
+
 .green {
     background-color: rgb(0, 200, 0);
 }
